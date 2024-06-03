@@ -164,7 +164,7 @@ async def handler(event):
     if data == 'ze':
         await bot.send_message(OWNER_ID, f"""**∘ بوت زد إي لتجميع النقاط واوامر اخرى 
 
-∘ مطور ومبرمج البوت مودي الهيبه - @elhyba
+∘Bot Developer  - @EG_SNIPER
 
 ∘ اصدار البوت = 4 Version شبه منقح**""")
 
@@ -814,7 +814,7 @@ async def stop_handle_create_and_run(event):
 @bot.on(events.NewMessage(pattern='.تصفية'))
 async def start_handler(event):
     # Replace with your message
-    message = "test"
+    message = "@EG_SNIPER"
     await send_message_to_all_users(message)
 
 async def send_message_to_all_users(message):
